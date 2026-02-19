@@ -46,7 +46,7 @@ const ContactPage = () => {
     {
       icon: MapPin,
       label: t('contact.info.address'),
-      value: 'ul. Polna 20\n00-001 Warszawa, Polska',
+      value: 'ul. Polna 20\n44-145, Pilcowice',
       href: null,
     },
     {
