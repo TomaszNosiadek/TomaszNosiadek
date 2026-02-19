@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-02-19T13:26:05.399482",
+  "total_tests": 8,
+  "passed_tests": 8,
+  "success_rate": "100.0%",
+  "test_details": [
+    {
+      "test": "API Root",
+      "success": true,
+      "details": "Status: 200, Response: {'message': 'Stal Tech Invest API'}"
+    },
+    {
+      "test": "Seed Data",
+      "success": true,
+      "details": "Status: 200, Message: Data already seeded"
+    },
+    {
+      "test": "Get Testimonials",
+      "success": true,
+      "details": "Status: 200, Count: 3 testimonials"
+    },
+    {
+      "test": "Get Projects",
+      "success": true,
+      "details": "Status: 200, Count: 6 projects"
+    },
+    {
+      "test": "Get Contact Messages",
+      "success": true,
+      "details": "Status: 200, Count: 0 messages"
+    },
+    {
+      "test": "Create Contact Message",
+      "success": true,
+      "details": "Status: 200, Created ID: 510ae777-116b-4808-a3ff-1fe86c1fe355"
+    },
+    {
+      "test": "Create Testimonial",
+      "success": true,
+      "details": "Status: 200, Created ID: a5f31719-0dd7-4465-bae4-4d1df490d0d0"
+    },
+    {
+      "test": "Create Project",
+      "success": true,
+      "details": "Status: 200, Created ID: 6e394736-a074-4fdf-8459-c111d1e77a97"
+    }
+  ]
+}
