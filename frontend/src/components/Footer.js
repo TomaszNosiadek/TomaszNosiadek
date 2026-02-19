@@ -103,7 +103,7 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-primary mt-0.5 flex-shrink-0" />
                 <span className="text-zinc-400 text-sm">
-                  ul. Przemysłowa 15<br />
+                  ul. Polna 20<br />
                   00-001 Warszawa, Polska
                 </span>
               </li>
