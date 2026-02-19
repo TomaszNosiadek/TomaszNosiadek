@@ -52,8 +52,8 @@ const ContactPage = () => {
     {
       icon: Phone,
       label: t('contact.info.phone'),
-      value: '+48 123 456 789',
-      href: 'tel:+48123456789',
+      value: '+48 514 332 193',
+      href: 'tel:+48514332193',
     },
     {
       icon: Mail,
