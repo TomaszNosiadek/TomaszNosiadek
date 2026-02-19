@@ -44,7 +44,7 @@ const ProjectsPage = () => {
     { key: 'automotive', label: t('projects.categories.automotive') },
     { key: 'logistics', label: t('projects.categories.logistics') },
     { key: 'commercial', label: t('projects.categories.commercial') },
-    { key: 'healthcare', label: t('projects.categories.healthcare') },
+    { key: 'industrial', label: t('projects.categories.industrial') },
   ];
 
   const clients = [
