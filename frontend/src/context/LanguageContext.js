@@ -66,6 +66,7 @@ const translations = {
         logistics: 'Logistyka',
         commercial: 'Komercja',
         healthcare: 'Szpitale',
+        industrial: 'Przemysł',
       },
     },
     // Testimonials
@@ -171,6 +172,7 @@ const translations = {
         logistics: 'Logistik',
         commercial: 'Gewerbe',
         healthcare: 'Krankenhäuser',
+        industrial: 'Industrie',
       },
     },
     // Testimonials
