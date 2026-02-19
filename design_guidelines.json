@@ -1,0 +1,174 @@
+{
+  "design_system": {
+    "identity": {
+      "name": "Stal Tech Invest Design System",
+      "archetype": "The Performance Pro (Industrial Variant)",
+      "tone": "Reliable, Heavy-duty, Precise, Experienced, 'German Quality'",
+      "visual_mood": "Industrial Brutalism, Concrete, Brushed Steel, High Contrast"
+    },
+    "typography": {
+      "font_family": {
+        "headings": "Barlow Condensed, sans-serif",
+        "body": "Manrope, sans-serif",
+        "mono": "JetBrains Mono, monospace"
+      },
+      "scale": {
+        "h1": "text-6xl md:text-8xl font-bold tracking-tighter uppercase",
+        "h2": "text-4xl md:text-6xl font-bold tracking-tight uppercase",
+        "h3": "text-2xl md:text-3xl font-semibold tracking-tight",
+        "body": "text-base md:text-lg leading-relaxed text-muted-foreground",
+        "caption": "text-sm font-medium tracking-widest uppercase text-muted-foreground"
+      },
+      "imports": [
+        "@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Manrope:wght@400;500;700&family=JetBrains+Mono:wght@400&display=swap');"
+      ]
+    },
+    "colors": {
+      "palette": {
+        "primary": {
+          "DEFAULT": "#F97316",
+          "foreground": "#FFFFFF",
+          "description": "Safety Orange - Use for primary CTAs and key highlights"
+        },
+        "secondary": {
+          "DEFAULT": "#27272A",
+          "foreground": "#FFFFFF",
+          "description": "Zinc 800 - Used for secondary buttons and surface accents"
+        },
+        "background": {
+          "DEFAULT": "#09090B",
+          "description": "Zinc 950 - Deep industrial black"
+        },
+        "surface": {
+          "DEFAULT": "#18181B",
+          "description": "Zinc 900 - Card backgrounds"
+        },
+        "muted": {
+          "DEFAULT": "#27272A",
+          "foreground": "#A1A1AA"
+        },
+        "border": {
+          "DEFAULT": "#27272A"
+        },
+        "accent": {
+          "DEFAULT": "#3B82F6",
+          "description": "Steel Blue - For technical details or trust indicators"
+        }
+      },
+      "gradients": {
+        "hero_overlay": "linear-gradient(to bottom, rgba(9,9,11,0.8), rgba(9,9,11,1))",
+        "metal_sheen": "linear-gradient(135deg, #27272a 0%, #3f3f46 50%, #27272a 100%)"
+      }
+    },
+    "layout": {
+      "container": {
+        "max_width": "max-w-7xl",
+        "padding": "px-6 md:px-12 lg:px-24"
+      },
+      "spacing": {
+        "section_gap": "py-24 md:py-32",
+        "element_gap": "gap-6 md:gap-12"
+      },
+      "grid_strategy": "Bento Grid (Mode A for Marketing, Mode B for Specs)",
+      "border_radius": {
+        "default": "rounded-sm",
+        "button": "rounded-none",
+        "card": "rounded-sm"
+      }
+    },
+    "components": {
+      "buttons": {
+        "primary": "bg-primary text-primary-foreground hover:bg-primary/90 h-12 px-8 rounded-none font-bold uppercase tracking-wider transition-all duration-300 hover:translate-x-1 hover:-translate-y-1 shadow-[4px_4px_0px_0px_rgba(255,255,255,0.1)]",
+        "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 h-12 px-8 rounded-none font-medium uppercase tracking-wider border border-white/10"
+      },
+      "cards": {
+        "style": "bg-surface border border-white/5 hover:border-primary/50 transition-colors duration-300 p-8 relative overflow-hidden group",
+        "hover_effect": "Add a subtle glow or slide-up effect on hover"
+      },
+      "inputs": {
+        "style": "bg-secondary/50 border-white/10 focus:border-primary rounded-none h-12"
+      },
+      "navigation": {
+        "style": "fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-white/5"
+      }
+    },
+    "visual_enhancers": {
+      "textures": "Use a subtle noise texture overlay on the background (opacity 0.03) to give a concrete feel.",
+      "decorations": [
+        "Technical crosshairs (+) in corners of sections",
+        "Vertical grid lines (opacity 0.05) running through the page",
+        "Warning stripes (diagonal lines) for emphasis areas"
+      ],
+      "motion": {
+        "scroll": "Use Lenis for smooth scrolling",
+        "reveal": "Staggered fade-up for grid items",
+        "hover": "Hard, mechanical transitions (0.2s ease-out)"
+      }
+    },
+    "assets": {
+      "icons": "Lucide React (Square, Hard edges)",
+      "images": {
+        "hero_bg": {
+          "url": "https://images.unsplash.com/photo-1676207094190-bfbe93bbb393?crop=entropy&cs=srgb&fm=jpg&q=85",
+          "alt": "Industrial ceiling with cable trays",
+          "category": "hero"
+        },
+        "services": [
+          {
+            "url": "https://images.unsplash.com/photo-1695326612772-816651657d05?crop=entropy&cs=srgb&fm=jpg&q=85",
+            "alt": "Workers on scaffolding",
+            "category": "service_installation"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1645152981706-50ad7d304e9b?crop=entropy&cs=srgb&fm=jpg&q=85",
+            "alt": "Drillers working",
+            "category": "service_equipment"
+          }
+        ],
+        "projects": [
+          {
+            "url": "https://images.unsplash.com/photo-1768796369926-2e25a1e4fc9b?crop=entropy&cs=srgb&fm=jpg&q=85",
+            "alt": "Blue industrial factory exterior",
+            "category": "project_1"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1766788467067-d443f19314b6?crop=entropy&cs=srgb&fm=jpg&q=85",
+            "alt": "Corrugated metal building",
+            "category": "project_2"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1771315043854-ab551cc09939?crop=entropy&cs=srgb&fm=jpg&q=85",
+            "alt": "Red metal facade",
+            "category": "project_3"
+          }
+        ]
+      }
+    }
+  },
+  "instructions_to_main_agent": {
+    "setup": [
+      "Install fonts: Barlow Condensed and Manrope",
+      "Configure Tailwind theme to match the 'colors' section exactly",
+      "Set default dark mode in index.css (force dark theme)",
+      "Install 'lucide-react' for icons",
+      "Install 'framer-motion' for mechanical reveals"
+    ],
+    "layout_rules": [
+      "Use the Bento Grid for the Services section. Make the 'Installation' card the largest.",
+      "Ensure the Language Switcher (PL/DE) is visible in the top right of the Navbar.",
+      "The 'Why Choose Us' section should use a grid with technical icons.",
+      "Contact section MUST have the Google Map embed on the right and form on the left."
+    ],
+    "content_rules": [
+      "Use 'Stal Tech Invest' as the brand name.",
+      "Include the 15+ years experience badge prominently in the Hero.",
+      "List clients: Mercedes-Benz, Amazon, Ford, Nobilia in a marquee or grid."
+    ],
+    "universal_guidelines": [
+      "Do not use rounded buttons. Keep them sharp/rectangular.",
+      "Do not use purple or violet.",
+      "Ensure high contrast for accessibility.",
+      "Use 'data-testid' on all interactive elements."
+    ]
+  }
+}
