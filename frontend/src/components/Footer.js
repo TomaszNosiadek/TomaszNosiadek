@@ -104,13 +104,13 @@ const Footer = () => {
                 <MapPin size={18} className="text-primary mt-0.5 flex-shrink-0" />
                 <span className="text-zinc-400 text-sm">
                   ul. Polna 20<br />
-                  00-001 Warszawa, Polska
+                  44-145 Pilchowice, Polska
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-primary flex-shrink-0" />
-                <a href="tel:+48123456789" className="text-zinc-400 hover:text-primary transition-colors text-sm">
-                  +48 123 456 789
+                <a href="tel:+48514 332 193 className="text-zinc-400 hover:text-primary transition-colors text-sm">
+                  +48 514 332 193
                 </a>
               </li>
               <li className="flex items-center gap-3">
