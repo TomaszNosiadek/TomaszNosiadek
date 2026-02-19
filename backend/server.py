@@ -175,15 +175,70 @@ async def seed_data():
         }
     ]
     
-    # Seed projects
+    # Seed projects with real company photos
     projects = [
+        {
+            "id": str(uuid.uuid4()),
+            "name": "Hala produkcyjna - NIEDAX",
+            "location": "Niemcy",
+            "description_pl": "Kompleksowy montaż systemów tras kablowych w hali produkcyjnej. Profesjonalne wykonanie z użyciem systemów NIEDAX.",
+            "description_de": "Umfassende Montage von Kabeltrassen-Systemen in einer Produktionshalle. Professionelle Ausführung mit NIEDAX-Systemen.",
+            "image_url": "https://customer-assets.emergentagent.com/job_industrial-cable-sys/artifacts/6skvztu5_1.jpeg",
+            "category": "industrial",
+            "year": 2024,
+            "created_at": datetime.now(timezone.utc).isoformat()
+        },
+        {
+            "id": str(uuid.uuid4()),
+            "name": "Obiekt przemysłowy",
+            "location": "Niemcy",
+            "description_pl": "Montaż tras kablowych na wysokości z użyciem podestów ruchomych. Prace wykonane zgodnie z najwyższymi standardami bezpieczeństwa.",
+            "description_de": "Montage von Kabeltrassen in der Höhe mit Hubarbeitsbühnen. Arbeiten nach höchsten Sicherheitsstandards ausgeführt.",
+            "image_url": "https://customer-assets.emergentagent.com/job_industrial-cable-sys/artifacts/n45wedes_2.jpeg",
+            "category": "industrial",
+            "year": 2024,
+            "created_at": datetime.now(timezone.utc).isoformat()
+        },
+        {
+            "id": str(uuid.uuid4()),
+            "name": "Centrum logistyczne",
+            "location": "Niemcy",
+            "description_pl": "Realizacja instalacji tras kablowych w nowoczesnym centrum logistycznym. Praca w systemie ciągłym.",
+            "description_de": "Realisierung der Kabeltrassen-Installation im modernen Logistikzentrum. Arbeiten im Durchlaufbetrieb.",
+            "image_url": "https://customer-assets.emergentagent.com/job_industrial-cable-sys/artifacts/eg70opm5_3.jpeg",
+            "category": "logistics",
+            "year": 2024,
+            "created_at": datetime.now(timezone.utc).isoformat()
+        },
+        {
+            "id": str(uuid.uuid4()),
+            "name": "Hala magazynowa",
+            "location": "Niemcy",
+            "description_pl": "Montaż systemów drabinkowych i korytków kablowych. Wysoka precyzja i estetyka wykonania.",
+            "description_de": "Montage von Kabelleiter- und Kabelrinnen-Systemen. Hohe Präzision und Ästhetik der Ausführung.",
+            "image_url": "https://customer-assets.emergentagent.com/job_industrial-cable-sys/artifacts/mctqe4gd_4.jpeg",
+            "category": "logistics",
+            "year": 2024,
+            "created_at": datetime.now(timezone.utc).isoformat()
+        },
+        {
+            "id": str(uuid.uuid4()),
+            "name": "Zakład produkcyjny",
+            "location": "Niemcy",
+            "description_pl": "Kompleksowa instalacja tras kablowych w zakładzie produkcyjnym. Projekt realizowany przy ciągłej produkcji.",
+            "description_de": "Umfassende Installation von Kabeltrassen im Produktionswerk. Projekt bei laufender Produktion durchgeführt.",
+            "image_url": "https://customer-assets.emergentagent.com/job_industrial-cable-sys/artifacts/91jwk05a_5.jpeg",
+            "category": "industrial",
+            "year": 2024,
+            "created_at": datetime.now(timezone.utc).isoformat()
+        },
         {
             "id": str(uuid.uuid4()),
             "name": "Mercedes-Benz Düsseldorf",
             "location": "Düsseldorf, Niemcy",
             "description_pl": "Kompleksowy montaż systemów tras kablowych w zakładzie produkcyjnym Mercedes-Benz. Ponad 5000 metrów tras kablowych.",
             "description_de": "Umfassende Installation von Kabeltrassen-Systemen im Mercedes-Benz Produktionswerk. Über 5000 Meter Kabeltrassen.",
-            "image_url": "https://images.unsplash.com/photo-1768796369926-2e25a1e4fc9b?crop=entropy&cs=srgb&fm=jpg&q=85",
+            "image_url": "https://customer-assets.emergentagent.com/job_industrial-cable-sys/artifacts/6skvztu5_1.jpeg",
             "category": "automotive",
             "year": 2023,
             "created_at": datetime.now(timezone.utc).isoformat()
@@ -194,20 +249,9 @@ async def seed_data():
             "location": "Köln, Niemcy",
             "description_pl": "Realizacja instalacji tras kablowych w centrum logistycznym Amazon. Praca w systemie ciągłym.",
             "description_de": "Realisierung der Kabeltrassen-Installation im Amazon Logistikzentrum. Arbeiten im Durchlaufbetrieb.",
-            "image_url": "https://images.unsplash.com/photo-1766788467067-d443f19314b6?crop=entropy&cs=srgb&fm=jpg&q=85",
+            "image_url": "https://customer-assets.emergentagent.com/job_industrial-cable-sys/artifacts/eg70opm5_3.jpeg",
             "category": "logistics",
             "year": 2023,
-            "created_at": datetime.now(timezone.utc).isoformat()
-        },
-        {
-            "id": str(uuid.uuid4()),
-            "name": "Messe Düsseldorf",
-            "location": "Düsseldorf, Niemcy",
-            "description_pl": "Montaż systemów tras kablowych w halach wystawienniczych. Wysoka precyzja i estetyka wykonania.",
-            "description_de": "Montage von Kabeltrassen-Systemen in Ausstellungshallen. Hohe Präzision und Ästhetik der Ausführung.",
-            "image_url": "https://images.unsplash.com/photo-1771315043854-ab551cc09939?crop=entropy&cs=srgb&fm=jpg&q=85",
-            "category": "commercial",
-            "year": 2022,
             "created_at": datetime.now(timezone.utc).isoformat()
         },
         {
@@ -216,29 +260,29 @@ async def seed_data():
             "location": "Köln, Niemcy",
             "description_pl": "Instalacja tras kablowych w zakładzie produkcyjnym Ford. Projekt realizowany przy ciągłej produkcji.",
             "description_de": "Installation von Kabeltrassen im Ford Produktionswerk. Projekt bei laufender Produktion durchgeführt.",
-            "image_url": "https://images.unsplash.com/photo-1695326612772-816651657d05?crop=entropy&cs=srgb&fm=jpg&q=85",
+            "image_url": "https://customer-assets.emergentagent.com/job_industrial-cable-sys/artifacts/n45wedes_2.jpeg",
             "category": "automotive",
             "year": 2022,
             "created_at": datetime.now(timezone.utc).isoformat()
         },
         {
             "id": str(uuid.uuid4()),
-            "name": "Uniklinikum Essen",
-            "location": "Essen, Niemcy",
-            "description_pl": "Montaż tras kablowych w szpitalu uniwersyteckim. Wymagana najwyższa precyzja i czystość pracy.",
-            "description_de": "Montage von Kabeltrassen im Universitätsklinikum. Höchste Präzision und Sauberkeit erforderlich.",
-            "image_url": "https://images.unsplash.com/photo-1645152981706-50ad7d304e9b?crop=entropy&cs=srgb&fm=jpg&q=85",
-            "category": "healthcare",
-            "year": 2021,
+            "name": "Nobilia",
+            "location": "Niemcy",
+            "description_pl": "Montaż tras kablowych dla producenta mebli kuchennych Nobilia. Wysoka precyzja i czystość pracy.",
+            "description_de": "Montage von Kabeltrassen für den Küchenmöbelhersteller Nobilia. Höchste Präzision und Sauberkeit.",
+            "image_url": "https://customer-assets.emergentagent.com/job_industrial-cable-sys/artifacts/mctqe4gd_4.jpeg",
+            "category": "industrial",
+            "year": 2022,
             "created_at": datetime.now(timezone.utc).isoformat()
         },
         {
             "id": str(uuid.uuid4()),
-            "name": "Four Towers Frankfurt",
-            "location": "Frankfurt, Niemcy",
-            "description_pl": "Prestiżowy projekt w kompleksie biurowym Four Towers. Montaż na dużych wysokościach.",
-            "description_de": "Prestigeprojekt im Bürokomplex Four Towers. Montage in großen Höhen.",
-            "image_url": "https://images.unsplash.com/photo-1676207094190-bfbe93bbb393?crop=entropy&cs=srgb&fm=jpg&q=85",
+            "name": "Messe Düsseldorf",
+            "location": "Düsseldorf, Niemcy",
+            "description_pl": "Montaż systemów tras kablowych w halach wystawienniczych. Wysoka precyzja i estetyka wykonania.",
+            "description_de": "Montage von Kabeltrassen-Systemen in Ausstellungshallen. Hohe Präzision und Ästhetik der Ausführung.",
+            "image_url": "https://customer-assets.emergentagent.com/job_industrial-cable-sys/artifacts/91jwk05a_5.jpeg",
             "category": "commercial",
             "year": 2021,
             "created_at": datetime.now(timezone.utc).isoformat()
