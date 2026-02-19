@@ -244,7 +244,7 @@ const ContactPage = () => {
               <div data-testid="google-map" className="w-full aspect-[4/3] bg-[#18181B] border border-white/10">
                 <iframe
                   title="Stal Tech Invest Location"
-                  src="https://maps.app.goo.gl/KW9tJhk2uvV6M33F6"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.220039592922!2d18.57018507681848!3d50.21947700396713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471137843a73d89b%3A0x9a40a659695504d3!2sPolna%2020%2C%2044-145%20Pilchowice%2C%20Polska!5e1!3m2!1spl!2sus!4v1771515578350!5m2!1spl!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
