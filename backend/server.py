@@ -179,7 +179,7 @@ async def seed_data():
     projects = [
         {
             "id": str(uuid.uuid4()),
-            "name": "Hala produkcyjna - NIEDAX",
+            "name": "",
             "location": "Niemcy",
             "description_pl": "Kompleksowy montaż systemów tras kablowych w hali produkcyjnej. Profesjonalne wykonanie z użyciem systemów NIEDAX.",
             "description_de": "Umfassende Montage von Kabeltrassen-Systemen in einer Produktionshalle. Professionelle Ausführung mit NIEDAX-Systemen.",
@@ -190,7 +190,7 @@ async def seed_data():
         },
         {
             "id": str(uuid.uuid4()),
-            "name": "Obiekt przemysłowy",
+            "name": "",
             "location": "Niemcy",
             "description_pl": "Montaż tras kablowych na wysokości z użyciem podestów ruchomych. Prace wykonane zgodnie z najwyższymi standardami bezpieczeństwa.",
             "description_de": "Montage von Kabeltrassen in der Höhe mit Hubarbeitsbühnen. Arbeiten nach höchsten Sicherheitsstandards ausgeführt.",
@@ -201,7 +201,7 @@ async def seed_data():
         },
         {
             "id": str(uuid.uuid4()),
-            "name": "Centrum logistyczne",
+            "name": "",
             "location": "Niemcy",
             "description_pl": "Realizacja instalacji tras kablowych w nowoczesnym centrum logistycznym. Praca w systemie ciągłym.",
             "description_de": "Realisierung der Kabeltrassen-Installation im modernen Logistikzentrum. Arbeiten im Durchlaufbetrieb.",
@@ -212,7 +212,7 @@ async def seed_data():
         },
         {
             "id": str(uuid.uuid4()),
-            "name": "Hala magazynowa",
+            "name": "",
             "location": "Niemcy",
             "description_pl": "Montaż systemów drabinkowych i korytków kablowych. Wysoka precyzja i estetyka wykonania.",
             "description_de": "Montage von Kabelleiter- und Kabelrinnen-Systemen. Hohe Präzision und Ästhetik der Ausführung.",
@@ -223,7 +223,7 @@ async def seed_data():
         },
         {
             "id": str(uuid.uuid4()),
-            "name": "Zakład produkcyjny",
+            "name": "",
             "location": "Niemcy",
             "description_pl": "Kompleksowa instalacja tras kablowych w zakładzie produkcyjnym. Projekt realizowany przy ciągłej produkcji.",
             "description_de": "Umfassende Installation von Kabeltrassen im Produktionswerk. Projekt bei laufender Produktion durchgeführt.",
@@ -234,7 +234,7 @@ async def seed_data():
         },
         {
             "id": str(uuid.uuid4()),
-            "name": "Mercedes-Benz Düsseldorf",
+            "name": "",
             "location": "Düsseldorf, Niemcy",
             "description_pl": "Kompleksowy montaż systemów tras kablowych w zakładzie produkcyjnym Mercedes-Benz. Ponad 5000 metrów tras kablowych.",
             "description_de": "Umfassende Installation von Kabeltrassen-Systemen im Mercedes-Benz Produktionswerk. Über 5000 Meter Kabeltrassen.",
@@ -245,7 +245,7 @@ async def seed_data():
         },
         {
             "id": str(uuid.uuid4()),
-            "name": "Amazon Fulfillment Center",
+            "name": "",
             "location": "Köln, Niemcy",
             "description_pl": "Realizacja instalacji tras kablowych w centrum logistycznym Amazon. Praca w systemie ciągłym.",
             "description_de": "Realisierung der Kabeltrassen-Installation im Amazon Logistikzentrum. Arbeiten im Durchlaufbetrieb.",
@@ -257,7 +257,7 @@ async def seed_data():
         {
             "id": str(uuid.uuid4()),
             "name": "Ford Köln",
-            "location": "Köln, Niemcy",
+            "location": "",
             "description_pl": "Instalacja tras kablowych w zakładzie produkcyjnym Ford. Projekt realizowany przy ciągłej produkcji.",
             "description_de": "Installation von Kabeltrassen im Ford Produktionswerk. Projekt bei laufender Produktion durchgeführt.",
             "image_url": "https://customer-assets.emergentagent.com/job_industrial-cable-sys/artifacts/n45wedes_2.jpeg",
@@ -267,7 +267,7 @@ async def seed_data():
         },
         {
             "id": str(uuid.uuid4()),
-            "name": "Nobilia",
+            "name": "",
             "location": "Niemcy",
             "description_pl": "Montaż tras kablowych dla producenta mebli kuchennych Nobilia. Wysoka precyzja i czystość pracy.",
             "description_de": "Montage von Kabeltrassen für den Küchenmöbelhersteller Nobilia. Höchste Präzision und Sauberkeit.",
@@ -278,7 +278,7 @@ async def seed_data():
         },
         {
             "id": str(uuid.uuid4()),
-            "name": "Messe Düsseldorf",
+            "name": "",
             "location": "Düsseldorf, Niemcy",
             "description_pl": "Montaż systemów tras kablowych w halach wystawienniczych. Wysoka precyzja i estetyka wykonania.",
             "description_de": "Montage von Kabeltrassen-Systemen in Ausstellungshallen. Hohe Präzision und Ästhetik der Ausführung.",
