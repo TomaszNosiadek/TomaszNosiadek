@@ -174,7 +174,10 @@ const AboutPage = () => {
             </h2>
             <p className="text-zinc-400 max-w-2xl mx-auto">
               {language === 'pl'
-                ? 'Posiadamy wykwalifikowany zespół około 17 doświadczonych monterów, gotowych do realizacji nawet najbardziej wymagających projektów.'
+                ? 'Stal Tech Invest Sp. z o.o. to firma specjalizująca się w profesjonalnym montażu wszystkich rodzajów systemów tras kablowych dla przemysłu i infrastruktury technicznej.
+Firma została założona w oparciu o wieloletnie doświadczenie jej założycieli oraz kadry zarządzającej. Nasz zespół posiada ponad 18 lat doświadczenia w branży, zdobytego podczas realizacji licznych projektów instalacyjnych na rynku niemieckim.
+Przez wiele lat uczestniczyliśmy w projektach związanych z montażem systemów tras kablowych, współpracując m.in. z jednym z największych europejskich producentów tych systemów – NIEDAX. Zdobyte doświadczenie pozwala nam realizować projekty na najwyższym poziomie, zapewniając naszym klientom jakość, terminowość oraz sprawdzone rozwiązania techniczne.
+Naszym celem jest budowanie długoterminowych relacji biznesowych oraz realizacja projektów zgodnie z najwyższymi standardami branżowymi.'
                 : 'Wir haben ein qualifiziertes Team von etwa 17 erfahrenen Monteuren, die bereit sind, auch die anspruchsvollsten Projekte zu realisieren.'}
             </p>
           </div>
